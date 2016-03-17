@@ -24,10 +24,10 @@ Next, we have to add the project root to the PATH environment. We have a couple 
 $ export PATH="[your-absolute-path-here]/create-issue/bin:$PATH"
 ```
 
-If you wish to more permanently add the command to your machine and don't wish to enter the above command every time you want to use Create-Issue, copy the above command and paste it to the end of your .bashrc file.
+If you wish to more permanently add the command to your machine and don't wish to enter the above command every time you open a new terminal window, copy the above command and paste it to the end of your .bashrc file.
 
 
-Finally, we must run bundler. Using this command assumes you have ruby and bundler install on your machine. To run bundler enter the following command (assuming you are in the bin folder):
+Finally, we must run bundler to utilize the Ruby gems. Using this command assumes you have ruby and bundler install on your machine. To run bundler enter the following command (assuming you are in the bin folder):
 
 ```
 $ bundle install
