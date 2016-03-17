@@ -1,21 +1,21 @@
 module CommandLineInterface
 	def prompt_username
-		puts 'Enter username:'
+		print 'Enter username: '
 		gets.chomp
 	end
 
 	def prompt_password
-		puts 'Enter password:'
+		print 'Enter password: '
 		STDIN.noecho(&:gets).chomp
 	end
 
 	def prompt_url
-		puts 'Enter repository URL (http or https):'
+		print 'Enter repository URL (http or https): '
 		gets.chomp
 	end
 
 	def prompt_title
-		puts 'Enter issue title (required):'
+		print 'Enter issue title (required): '
 		title = gets.chomp
 		if title == ""
 			prompt_title 
@@ -25,7 +25,7 @@ module CommandLineInterface
 	end
 
 	def prompt_body
-		puts 'Enter issue body:'
+		print 'Enter issue body: '
 		gets.chomp
 	end
 end

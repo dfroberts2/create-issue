@@ -6,7 +6,6 @@ require 'bundler/setup'
 require 'io/console'
 require 'octokit'
 require 'uri'
-require 'pry'
 require 'bitbucket_rest_api'
 
 #Loads source files in proper order

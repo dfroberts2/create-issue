@@ -25,7 +25,7 @@ end
 class GitHubUser < Credential
 	def create_issue
 		login.create_issue(request.path, request.title, request.body)
-		puts "Successfully created issue '#{request.title}' on Github repository '#{request.path}'"
+		puts "\nSuccessfully created issue '#{request.title}' on Github repository '#{request.path}'"
 	end
 
 	private
@@ -44,7 +44,7 @@ class BitBucketUser < Credential
 							request.path.split('/')[1], 
 								{"title" => request.title, 
 								"content" => request.body})
-		puts "Successfully created issue '#{request.title}' on BitBucket repository '#{request.path}'"
+		puts "\nSuccessfully created issue '#{request.title}' on BitBucket repository '#{request.path}'"
 	end
 	
 	private
