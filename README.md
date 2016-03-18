@@ -4,6 +4,8 @@ Create-Issue is a command line tool that allows users to post issues to public c
 
 Create-Issue was written so that it could be extendable to remote code repositories other than GitHub and BitBucket. It is written in the Ruby language and utilizes gems that interact with remote code repository APIs.
 
+*Note to view the source code on GitHub with proper indenting add ?ts=4 to the URL when viewing a file.
+
 ## Getting Started
 Create-Issue is easy to configure on your Unix/Linux machine. Just follow these steps:
 
